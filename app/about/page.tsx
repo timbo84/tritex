@@ -30,13 +30,16 @@ export default function AboutPage() {
               </h2>
               <div className="section-divider mb-7" />
               <p className="text-slate-600 leading-relaxed mb-5">
-                Tritex was founded on a simple belief: that every client deserves unparalleled professionalism, quality materials, and guaranteed satisfaction — no matter the size of the project. That belief hasn&apos;t changed in over 30 years.
+                Welcome to the Tritex Family! Tritex is proud to say that we are a family-owned &amp; operated business, located in San Angelo, Texas. We pride ourselves on our customer service, quality and efficiency in every project we do.
               </p>
               <p className="text-slate-600 leading-relaxed mb-5">
-                Based in San Angelo, TX, we serve the entire surrounding West Texas region across commercial, industrial, residential, and agricultural markets. From a single gate to a full commercial perimeter fence, we bring the same dedication to every job.
+                We have helped customers improve their homes, businesses and ranches for the last 10 years, all over Texas and New Mexico. We stand behind our guarantee of customer satisfaction with quality work.
+              </p>
+              <p className="text-slate-600 leading-relaxed mb-5">
+                Tritex offers a one year workmanship warranty on all installations. Our family is equipped to handle any size job, large or small. We have the equipment to work with any type of material, allowing us to complete your work in an efficient manner. We have you covered!
               </p>
               <p className="text-slate-600 leading-relaxed mb-8">
-                We know our reputation rests on every project we complete. That&apos;s why we never cut corners — on materials, on craftsmanship, or on the respect we show for your property and your vision.
+                Tritex is fully insured for all of your job needs. Our company is with you from the beginning: from the estimate to the whole installation process, as well as taking care of all city permits. We believe in good quality work and stand behind every product we build.
               </p>
 
               <div className="flex flex-wrap gap-2 mb-8">
