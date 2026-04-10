@@ -13,8 +13,9 @@ const navLinks = [
   { label: 'Gallery',    href: '/gallery' },
   { label: 'FAQ',        href: '/faq' },
   { label: 'Offers',     href: '/offers' },
-  { label: 'Employment', href: '/employment' },
-  { label: 'Contact',    href: '/contact' },
+  { label: 'Our Process', href: '/process' },
+  { label: 'Employment',  href: '/employment' },
+  { label: 'Contact',     href: '/contact' },
 ];
 
 export default function Navigation() {

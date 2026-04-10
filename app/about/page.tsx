@@ -99,6 +99,46 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* Videos */}
+      <section className="py-20 bg-brand-cream">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-10">
+            <p className="text-brand-tan font-semibold text-sm uppercase tracking-widest mb-3">See Our Work</p>
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-brand-charcoal" style={{ fontFamily: 'var(--font-montserrat)' }}>
+              Watch Tritex in Action
+            </h2>
+            <div className="section-divider mx-auto mt-4" />
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            {[
+              { title: 'Introduction to Tritex',  src: 'https://www.loom.com/embed/ef96025d3be648ba8524def0aa835403' },
+              { title: 'Plasma Cutting',          src: 'https://player.vimeo.com/video/882524788?h=bf2a04d21d&autoplay=0&title=0&portrait=0&byline=0&badge=0&loop=0&muted=0&controls=1' },
+              { title: 'Close Up Plasma Cutting', src: 'https://player.vimeo.com/video/882525794?h=ba2f9a0a77&autoplay=0&title=0&portrait=0&byline=0&badge=0&loop=0&muted=0&controls=1' },
+              { title: 'Project Showcase',        src: 'https://www.youtube.com/embed/qkkcBI-vRKE' },
+              { title: 'Behind the Build',        src: 'https://www.youtube.com/embed/20-JYhL0xcQ' },
+            ].map(({ title, src }) => (
+              <div key={title} className="rounded-2xl overflow-hidden shadow-md aspect-video bg-black">
+                <iframe
+                  src={src}
+                  width="100%"
+                  height="100%"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+                  allowFullScreen
+                  style={{ border: 0 }}
+                  title={title}
+                  className="w-full h-full"
+                />
+              </div>
+            ))}
+          </div>
+          <div className="text-center mt-8">
+            <Link href="/process" className="inline-flex items-center gap-2 text-brand-tan hover:underline font-semibold">
+              View all videos on Our Process page →
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="py-16 bg-brand-brown text-white text-center">
         <div className="max-w-3xl mx-auto px-4">
