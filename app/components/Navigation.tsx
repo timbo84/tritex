@@ -7,13 +7,14 @@ import { usePathname } from 'next/navigation';
 
 
 const navLinks = [
-  { label: 'Home',     href: '/' },
-  { label: 'About',    href: '/about' },
-  { label: 'Services', href: '/services' },
-  { label: 'Gallery',  href: '/gallery' },
-  { label: 'FAQ',      href: '/faq' },
-  { label: 'Offers',   href: '/offers' },
-  { label: 'Contact',  href: '/contact' },
+  { label: 'Home',       href: '/' },
+  { label: 'About',      href: '/about' },
+  { label: 'Services',   href: '/services' },
+  { label: 'Gallery',    href: '/gallery' },
+  { label: 'FAQ',        href: '/faq' },
+  { label: 'Offers',     href: '/offers' },
+  { label: 'Employment', href: '/employment' },
+  { label: 'Contact',    href: '/contact' },
 ];
 
 export default function Navigation() {

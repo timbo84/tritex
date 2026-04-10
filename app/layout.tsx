@@ -38,6 +38,7 @@ const footerLinks = [
   { label: 'Project Gallery',   href: '/gallery' },
   { label: 'Offers & Discounts',href: '/offers' },
   { label: 'FAQ',               href: '/faq' },
+  { label: 'Employment',        href: '/employment' },
   { label: 'Contact',           href: '/contact' },
 ];
 
